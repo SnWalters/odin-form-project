@@ -65,6 +65,7 @@ form {
 legend {
     font-size: 1.2rem;
     font-weight: bold;
+    margin-bottom: 9px;
 }
 
 .form-inputs {
@@ -82,14 +83,26 @@ label {
 }
 
 input {
-    padding: 3px;
+    padding: 3px 0 3px 5px;
     margin-bottom: 4px;
     border-radius: 5px;
     border: 1px solid black;
+    width: 50%;
+    font-size: 1.1rem;
 }
 
 input:focus {
     border: 1px solid blue;
+}
+
+input:focus:invalid, input:invalid {
+    border: 1px solid red;
+    background-color: #f001;
+}
+
+input:focus:valid, input:valid {
+    border: 1px solid green;
+    background-color: #0f01;
 }
 
 /* Form Create Account */
