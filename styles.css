@@ -67,3 +67,21 @@ div {
 .logo > p > a:hover {
     color: #c0c0c0;
 }
+
+.logo-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0009;
+    color: #f9faf8;
+    font-family: Norse-Bold;
+    font-size: 6rem;
+    position: absolute;
+    top: 25%;
+    width: 100%;
+}
+
+.logo-image > img {
+    width: 30%;
+    height: auto;
+}
