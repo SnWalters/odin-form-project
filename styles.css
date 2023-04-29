@@ -1,6 +1,6 @@
 @font-face {
     font-family: norse-bold;
-    src: url("Norse-Bold.otf");
+    src: url("font/Norse-Bold.otf");
 }
 
 body {
@@ -22,7 +22,7 @@ div {
 }
 
 .logo {
-    background-image: url("leaf.avif");
+    background-image: url("images/leaf.avif");
     width: 30vw;
     height: 100%;
     position: relative;
@@ -56,7 +56,6 @@ div {
 }
 
 .logo > p {
-    font-family: norse-bold;
     color: #f9faf8;
     font-size: 14px;
 }
