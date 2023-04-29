@@ -7,19 +7,25 @@
         <title>Sign-Up Form</title>
     </head>
     <body>
+
         <div id="container">
+
             <div class="logo">
+
                 <div class="logo-image">
                     <img src="images/odin-lined.png">
                     <p>ODIN</p>
                 </div>
+
                 <p>Photo by <a href="https://unsplash.com/@haliewestphoto">
                     Halie West</a> on
                     <a href="https://unsplash.com/photos/25xggax4bSA">
                         Unsplash</a>
                 </p>
             </div>
+
             <div class="form">
+
                 <div class="intro">
                     <p>This is not a real online service! You know you need
                         something like this in your life to help you realize
@@ -29,7 +35,41 @@
                         You <em>know</em> you want to.
                     </p>
                 </div>
-                <div class="sign-up"></div>
+
+                <div class="sign-up">
+                    <form action="#" method="post">
+                        <legend>Let's do this!</legend>
+
+                        <label for="first-name">FIRST NAME
+                            <input type="text" id="first-name"
+                                name="first-name">
+                        </label>
+
+                        <label for="last-name">LAST NAME
+                            <input type="text" id="last-name"
+                                name="last-name">
+                        </label>
+
+                        <label for="email">EMAIL
+                            <input type="email" id="email" name="email">
+                        </label>
+
+                        <label for="phone">PHONE NUMBER
+                            <input type="tel" id="phone" name="phone">
+                        </label>
+
+                        <label for="password">PASSWORD
+                            <input type="password" id="password"
+                                name="password">
+                        </label>
+
+                        <label for="conf-password">CONFIRM PASSWORD
+                            <input type="password" id="conf-password"
+                                name="conf-password">
+                        </label>
+                    </form>
+                </div>
+
                 <div class="create">
                     <button type="submit">Create Account</button>
                     <p class="log-in">Already have an account?
