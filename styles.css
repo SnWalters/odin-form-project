@@ -78,13 +78,13 @@ legend {
 }
 
 label {
+    margin-top: 10px;
     display: block;
     font-size: .8rem;
 }
 
 input {
     padding: 3px 0 3px 5px;
-    margin-bottom: 4px;
     border-radius: 5px;
     border: 1px solid black;
     width: 50%;
@@ -109,6 +109,30 @@ input:focus:valid, input:valid {
 
 .create {
     background-color: #eee;
+}
+
+.create > button {
+    background-color: #070;
+    color: #f9faf8;
+    padding: 15px 30px;
+    border-radius: 10px;
+    font-size: 1.1rem;
+    width: 20%;
+}
+
+.create > button:hover {
+    background-color: #070a;
+    cursor: pointer;
+}
+
+.create a {
+    color: #070;
+    text-decoration: none;
+}
+
+.create a:hover {
+    color: #070a;
+    text-decoration: underline;
 }
 
 /* Logo Section */
