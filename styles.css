@@ -170,11 +170,18 @@ input:focus:valid, input:valid {
     font-family: Norse-Bold;
     font-size: 6rem;
     position: absolute;
-    top: 25%;
+    top: 15%;
     width: 100%;
+    padding: 15px 0;
 }
 
 .logo-image > img {
-    width: 30%;
+    margin: 0;
+    padding: 0;
+    width: 20%;
     height: auto;
+}
+
+.logo-image > p {
+    margin: 0;
 }
