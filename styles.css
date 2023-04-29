@@ -26,4 +26,22 @@ div {
     background-color: #c0c0c0;
     width: 70vw;
     height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.form > div {
+    flex: 1;
+}
+
+.intro {
+    background-color: #00f;
+}
+
+.sign-up {
+    background-color: #0f0;
+}
+
+.create {
+    background-color: #f00;
 }
