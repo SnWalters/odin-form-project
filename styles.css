@@ -17,7 +17,7 @@ div {
 }
 
 .logo {
-    background-color: #0f0;
+    background-image: url("leaf.avif");
     width: 30vw;
     height: 100%;
 }
