@@ -33,6 +33,7 @@ div {
 
 .form > div {
     flex: 1;
+    padding: 5% 5%;
 }
 
 .intro {
