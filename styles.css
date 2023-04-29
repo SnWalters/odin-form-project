@@ -33,7 +33,7 @@ div {
 
 .form > div {
     flex: 1;
-    padding: 5% 5%;
+    padding: 2% 5%;
 }
 
 /* Form Intro */
@@ -55,6 +55,18 @@ div {
     z-index: 1;
 }
 
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 90%;
+}
+
+legend {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
 .form-inputs {
     display: flex;
     flex-wrap: wrap;
@@ -66,11 +78,18 @@ div {
 
 label {
     display: block;
+    font-size: .8rem;
 }
 
-legend {
-    font-size: 1.2rem;
-    font-weight: bold;
+input {
+    padding: 3px;
+    margin-bottom: 4px;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+input:focus {
+    border: 1px solid blue;
 }
 
 /* Form Create Account */
