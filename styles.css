@@ -37,15 +37,17 @@ div {
 }
 
 .intro {
-    background-color: #00f;
+    background-color: #eee;
+    font-weight: bold;
+    font-size: 1.1rem;
 }
 
 .sign-up {
-    background-color: #0f0;
+    background-color: #f9faf8;
 }
 
 .create {
-    background-color: #f00;
+    background-color: #eee;
 }
 
 /* Logo Section */
